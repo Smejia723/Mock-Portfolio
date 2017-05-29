@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
+<html>
+<meta charset="utf-8">
+<meta name="portfolio" content="width=device-width, initial-scale=1.0">
+<title>portfolio website</title>
+<link rel="stylesheet" href="bootstrap.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+rel="stylesheet" type="text/css">
+<header>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</header>
+<body>
+  <!-- container to contain web page-->
+    <div class = "container">
+    <!-- row contains parts of web page-->
+    <div class = "row">
+    <!-- col-md-6 is half of a web page width-->
+        <div class = "col-md-2 image-left">
+        <!-- img-responsive is to change size of image to device window size-->
+          <img src="images/udacity-logo.jpg"
+          class="img-responsive" alt="">
+        </div>
+        <!-- three classes added but = to one div class-->
+        <div class = "col-md-10 text-right text-uppercase" >
+          <h1>Jane Doette</h1>
+          <h5>Front-end Ninja</h5>
+        </div>
+    </div>
+    <div class = "row">
+        <!-- col-md-12 is whole of a web page width-->
+      <div class = "col-md-12">
+        <!-- line area-->
+        <hr>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-md-12">
+      <!-- image class to show scale and change of high and low res images-->
+        <img class="img-responsive" src="images/htmlX03.jpg"
+        srcset="images/html_medium.jpg, images/html_small.jpg" alt="html text">
+        <!--caption for the visually impared-->
+        <figcaption>website code</figcaption>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-md-12">
+        <h2>Featured Work</h2>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-md-4 text-uppercase">
+      <!--image that will change due to size of window-->
+        <img class="img-responsive" src="images/pexels-photo-appX03.jpg"
+        srcset="images/pexels-photo-app_medium.jpg 2x, images/pexels-photo-app_small.jpg" alt="apple apps"
+        data-toggle="modal" data-target="#project1">
+        <figcaption>app page on an Iphone</figcaption>
+
+        <h4>Appify</h4>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+      <div class = "col-md-4 text-uppercase">
+        <img class="img-responsive" src="images/pexels-photo-sunflowerX03.jpg"
+        srcset="images/pexels-photo-sunflower_medium.jpg 2x, images/pexels-photo-sunflower_small.jpg" alt="sunflower plant"
+        data-toggle="modal" data-target="#project2">
+        <figcaption>A sunflower plant</figcaption>
+        <h4>Appify</h4>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+      <div class = "col-md-4 text-uppercase">
+        <img class="img-responsive" src="images/pexels-photo-treeX03.jpg"
+        srcset="images/pexels-photo-tree_medium.jpg 2x, images/pexels-photo-tree_small.jpg" alt="sunbeam in trees"
+        data-toggle="modal" data-target="#project3">
+        <figcaption>a warm sunbeam behind many trees</figcaption>
+        <h4>Appify</h4>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-md-4 text-uppercase">
+        <img class="img-responsive" src="images/pexels-photo-appX03.jpg"
+        srcset="images/pexels-photo-app_medium.jpg 2x, images/pexels-photo-app_small.jpg" alt="apple apps">
+        <figcaption>app page on an Iphone</figcaption>
+        <h4>Appify</h4>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+      <div class = "col-md-4 text-uppercase">
+        <img class="img-responsive" src="images/pexels-photo-sunflowerX03.jpg"
+        srcset="images/pexels-photo-sunflower_medium.jpg 2x, images/pexels-photo-sunflower_small.jpg" alt="sunflower plant">
+        <figcaption>A sunflower plant</figcaption>
+        <h4>Appify</h4>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+      <div class = "col-md-4 text-uppercase">
+        <img class="img-responsive" src="images/pexels-photo-treeX03.jpg"
+        srcset="images/pexels-photo-tree_medium.jpg 2x, images/pexels-photo-tree_small.jpg" alt="trees">
+        <figcaption>a warm sunbeam behind many trees</figcaption>
+        <h4>Appify</h4>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+    </div>
+  </div>
+    <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/pexels-photo-app_small.jpg">
+                  This was my first project in this class. I learned a lot about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/pexels-photo-sunflower_small.jpg">
+                  This was my second project in this class. I learned a lot about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/pexels-photo-tree_small.jpg">
+                  This was my third project in this class. I learned a lot about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <footer>
+  </footer>
+</body>
+</html>
